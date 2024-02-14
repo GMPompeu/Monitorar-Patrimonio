@@ -1,0 +1,119 @@
+.list-func {
+    background-color: rgb(224, 224, 224);
+    min-width: 70%; 
+    height: 70%; 
+    border-radius: 20px;
+    padding: 15px;
+    overflow-y: auto;
+    position: fixed;
+}
+
+.funcionarios {
+    width: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.041);
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+.funcionarios:hover{
+    transform: scale(1.01);
+}
+
+.funcionarios span {
+    display: inline-block; 
+    margin-right: 30px; 
+    font-family: 'Open Sans', sans-serif; 
+    color: #333; 
+    font-size: 16px; 
+}
+
+.funcionarios span strong {
+    font-weight: bold; 
+    color: green; 
+}
+.funcionarios a{
+    color: #333;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.funcionarios a:hover{
+    text-decoration: underline;
+
+}
+.remover{
+    border: none;
+    background-color: rgb(212, 2, 2);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.remover:hover{
+    background-color: rgb(175, 1, 1);
+}
+
+
+
+ /* Estilos para o pop-up */
+ .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#popup-content {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#close-button {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.opcao {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.opcao:focus {
+    border-color: #1a1a1a; /* Cor da borda quando o select está em foco */
+}
+
+/* Estilos para as opções do select */
+.opcao option {
+    background-color: #fff; /* Cor de fundo das opções */
+    color: #333; /* Cor do texto das opções */
+}
+
+.popupDes {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}

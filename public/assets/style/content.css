@@ -1,0 +1,101 @@
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 300px;
+    height: auto;
+}
+
+/* Estilo geral */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cards {
+    width: 100%;
+    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+/*Cards---------------------*/
+
+.cards {
+    display: flex;
+    justify-content: space-between; /* Distribui os cartões igualmente na largura */
+}
+
+.card {
+    flex: 1; /* Faz com que cada cartão ocupe igualmente a largura disponível */
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.041);
+    transition: transform 0.2s; /* Adiciona transição para a escala no hover */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Aplica a escala no hover */
+}
+
+.number {
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(14, 165, 0);
+}
+
+.card-name {
+    color: #888;
+    font-weight: 500;
+}
+.icon-box i {
+    font-size: 40px;
+    color: #5f5f5f;
+}
+.paragrafo{
+    color: #3a3a3a;
+}
+.list-menu{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.perfil {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.identificacao,
+.cargo {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.avatar{
+    font-size: 50px;
+}

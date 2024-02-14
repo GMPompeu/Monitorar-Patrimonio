@@ -1,0 +1,105 @@
+/*CADASTRO USUARIO------------------------------------------*/
+.main-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.left-cadastro{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-cadastro > h1{
+    color: #222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.left-cadastro-image{
+    width: 30vw;
+}
+
+.right-cadastro{
+    width: 60vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #b4b0b0;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.card-cadastro > h1{
+    color: #222;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #e2e1e1;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.textfield > label{
+    color: #111;
+}
+
+.textfield > a{
+    margin: 10px 0px;
+    color: #111;
+    cursor: pointer;
+    
+}
+
+.btn-cadastro{
+    width: 80%;
+    padding: 16px 0px;
+    margin: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+    background: #333;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00000056;
+}

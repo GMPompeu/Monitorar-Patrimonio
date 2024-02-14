@@ -1,0 +1,81 @@
+.container-func{
+    background-color: #fafafa;
+    width: 100%;
+    min-height: 15vw;
+    border-radius: 10px;
+    padding: 5px;   
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.041);
+}
+
+.content-func{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#func-main{
+    font-size: 40px;
+}
+.name-func{
+    font-size: 28px;
+}
+
+.data-func ul {
+    list-style: none;
+    padding: 0;
+}
+
+.data-func ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.data-func ul li:last-child {
+    margin-right: 0;
+}
+
+.data-func strong {
+    color: #0077b6; /* Cor desejada para os rótulos em negrito */
+    font-size: 18px;
+}
+
+.cards-func{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+
+.card-func {
+    flex: 1; /* Faz com que cada cartão ocupe igualmente a largura disponível */
+    padding: 40px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.041);
+    transition: transform 0.2s; /* Adiciona transição para a escala no hover */
+}
+.card-func:hover {
+    transform: scale(1.02); /* Aplica a escala no hover */
+}
+.btn-func{
+    border: none;
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.041);
+    transition: transform 0.1s; 
+}
+.btn-func:hover{
+    background-color: rgb(1, 104, 1);
+    transform: scale(1.02);
+    box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.041);
+}
