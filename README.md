@@ -1,0 +1,3 @@
+Juntamente com o meu grupo em um trabalho da faculdade, onde o desafio era criar soluções para solicionar problemas que temos em nossa rotina.
+Diante ao desafio, em grupo decidimos que seria um sistema que fosse capaz de armazenar todos os patrimonios de uma empresa, ou seja equipamentos que a empresa tem posse, capaz de monitorar e mostrar todos os seus equipamentos, pessoas vinculadas ao equipamento e sua localidade temabém.
+Atráves de um resgistro, entre outras opções como remover um usuario, cadastrar um equipamento, vincular o equipamento a algum funcionário etc...
