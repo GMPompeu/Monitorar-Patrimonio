@@ -1,11 +1,15 @@
-Juntamente com o meu grupo em um trabalho da faculdade, onde o desafio era criar soluções a fim de minimizar problemas que temos em nossa rotina.
-Diante ao desafio, em grupo decidimos que seria um sistema que fosse capaz de armazenar todos os patrimonios de uma empresa, ou seja equipamentos que a empresa tem posse, capaz de monitorar e mostrar todos os seus equipamentos, pessoas vinculadas ao equipamento e sua localidade temabém.
-Atráves de um resgistro, entre outras opções como remover um usuario, cadastrar um equipamento, vincular o equipamento a algum funcionário etc...
-<p>Detalhes Técnicos:
-🖥️ Desenvolvido em PHP, seguindo a arquitetura MVC.
-💽 Utilização do PDO para interação com o banco de dados MySQL.
-🌐 Implementação de URLs amigáveis para uma experiência de usuário mais intuitiva.
-🎨 Estilização da interface com CSS e funcionalidades interativas com JavaScript.</p>
+<span>Contexto do Projeto: Este projeto foi parte de um desafio proposto por nossa professora no intuito de resolver um problema do dia a dia. Em um esforço de equipe, decidimos abordar o problema do controle de patrimônio, e eu assumi a responsabilidade de criar o sistema do zero.
+Simplicidade e Agilidade: Admito que o tempo era curto pois estava com algumas pendências de outra matéria. O sistema pode ser considerado simples. No entanto, essa simplicidade não diminui a importância do projeto. Ele demonstra minha capacidade de entrega eficiente em situações desafiadoras.</span>
+<h3>Detalhes Técnicos:</h3>
+<p>🖥️ Desenvolvido em PHP, seguindo a arquitetura MVC.</p>
+<p>💽 Utilização do PDO para interação com o banco de dados MySQL.</p>
+<p>🌐 Implementação de URLs amigáveis para uma experiência de usuário mais intuitiva.</p>
+<p>🎨 Estilização da interface com CSS e funcionalidades interativas com JavaScript.</p>
+<br>
+<br>
+<h5>Vamos a sua Funcionalidade: Temos a página de login, sendo o acesso principal sendo obrigatório estar autenticado para ter acesso total ao sistema.
+O sistema tem dois níveis de acesso, ou seja, seu nível de acesso ao sistema será limitado ou você terá acesso a todas as funcionalidades. (Quem decide isso pode ser seu superior).
+</h5>
 <img src="https://media.licdn.com/dms/image/D4D22AQEE0kiOTv8wvA/feedshare-shrink_2048_1536/0/1699615599184?e=1712188800&v=beta&t=LBiIsAdxKene4XbU184P8YwVam7sRzBD2caOZrxjmko"/>
 <img src="https://media.licdn.com/dms/image/D4D22AQEnoxFFece8qQ/feedshare-shrink_2048_1536/0/1699615599376?e=1712188800&v=beta&t=SjSMOthRRYAy6GdDIC_tEMtElT3l5q-WeNFQJ7vAAY0"/>
 <img src="https://media.licdn.com/dms/image/D4D22AQEuXCiSWR76lw/feedshare-shrink_2048_1536/0/1699615602372?e=1712188800&v=beta&t=rbDKJW823PR-fYsSM0lwyJRfytvpU6IuAQgmqH7Tqbk"/>
