@@ -6,14 +6,21 @@ Simplicidade e Agilidade: Admito que o tempo era curto pois estava com algumas p
 <p>🌐 Implementação de URLs amigáveis para uma experiência de usuário mais intuitiva.</p>
 <p>🎨 Estilização da interface com CSS e funcionalidades interativas com JavaScript.</p>
 <br>
-<br>
-<h5>Vamos a sua Funcionalidade: Temos a página de login, sendo o acesso principal sendo obrigatório estar autenticado para ter acesso total ao sistema.
+<hr>
+<h4>Vamos a sua Funcionalidade: Temos a página de login, sendo o acesso principal sendo obrigatório estar autenticado para ter acesso total ao sistema.
 O sistema tem dois níveis de acesso, ou seja, seu nível de acesso ao sistema será limitado ou você terá acesso a todas as funcionalidades. (Quem decide isso pode ser seu superior).
-</h5>
+</h4>
 <img src="https://media.licdn.com/dms/image/D4D22AQEE0kiOTv8wvA/feedshare-shrink_2048_1536/0/1699615599184?e=1712188800&v=beta&t=LBiIsAdxKene4XbU184P8YwVam7sRzBD2caOZrxjmko"/>
 <img src="https://media.licdn.com/dms/image/D4D22AQEnoxFFece8qQ/feedshare-shrink_2048_1536/0/1699615599376?e=1712188800&v=beta&t=SjSMOthRRYAy6GdDIC_tEMtElT3l5q-WeNFQJ7vAAY0"/>
+<br>
+<h4>Página principal: Após autenticado, você será redirecionado para a página principal, onde ela funciona basicamente como um Dash Board, mostrando a quantidade de equipamentos e quantidade de funcionários. Listando também todos os funcionários e seu cargo. Além de algumas funcionalidades no menu lateral. </h4>
+<br>
 <img src="https://media.licdn.com/dms/image/D4D22AQEuXCiSWR76lw/feedshare-shrink_2048_1536/0/1699615602372?e=1712188800&v=beta&t=rbDKJW823PR-fYsSM0lwyJRfytvpU6IuAQgmqH7Tqbk"/>
+<br>
+<h4>Menu Usuário: Contendo informação de cada funcionário, tendo seu cargo sua identificação e quantidades de equipamentos vinculado ao mesmo (Com possíveis modificações, para incluir o setor de trabalho sua localidade, para ter o controle onde cada equipamento se encontra.), logo em baixo será possível a visualização do equipamento e algumas informações do mesmo.</h4>
 <img src="https://media.licdn.com/dms/image/D4D22AQHXqerHHz9ebQ/feedshare-shrink_2048_1536/0/1699615602348?e=1712188800&v=beta&t=udn0vs1Ox76cgYhFN_dGAmCe3aNlxZfR2b7x3noaCfY"/>
+<br>
+<h4>Equipamentos: Por meio de uma lista será possível ter uma visualização de cada equipamento, e saber se esta ou não vinculado a algum funcionário, caso esteja podemos desvincular, ou caso contrário podemos vincular a algum funcionário já cadastrado.</h4>
 <img src="https://media.licdn.com/dms/image/D4D22AQHt9-qn1XvLxA/feedshare-shrink_2048_1536/0/1699615602400?e=1712188800&v=beta&t=AqnOYNy_PE546omnew0Zql6geGVAVdN1pARm1nMYOS8"/>
 <img src="https://media.licdn.com/dms/image/D4D22AQEy-W6Knrcsdg/feedshare-shrink_2048_1536/0/1699615603035?e=1712188800&v=beta&t=jsA03XMg7vte3FKQlKmAau7PLrUkAFSXT-ldCsZO9kA"/>
 <img src="https://media.licdn.com/dms/image/D4D22AQEcvGPGsQyV_w/feedshare-shrink_2048_1536/0/1699615601618?e=1712188800&v=beta&t=gjcHrX_bnuqvOTr1llKTvQaN83-FQgx15-JcKge8o7E"/>
